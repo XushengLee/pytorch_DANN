@@ -29,5 +29,5 @@ def process(labels_path, images_path, data_dir):
 mkdirs(data_dir)
 process(train_labels, train_images, data_dir + '/train')
 process(test_labels, test_images, data_dir + '/test')
-os.remove(train_images)
-os.remove(test_images)
+shutil.rmtree(train_images)
+shutil.rmtree(test_images)
