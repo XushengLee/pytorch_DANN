@@ -15,7 +15,7 @@ gamma = 10
 theta = 1
 
 # path params
-data_root = './data'
+data_root = '/home/lxs/datasets'
 
 mnist_path = data_root + '/MNIST'
 mnistm_path = data_root + '/MNIST_M'
